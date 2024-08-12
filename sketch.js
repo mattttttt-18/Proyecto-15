@@ -51,18 +51,18 @@ function draw() {
  {
       /*Descomenta la opción correcta 
         en función del estado PLAY*/  
-      // // mover el suelo
-      // scene.velocityX = -3 
-      // //destroy bow
-      // bow.destroy();
-      // //reiniciar el fondo
-      // if (scene.x < 0){
-      //     scene.x = scene.width/2;
-      //    }
-      // //mover arco
-      // bow.y = World.mouseY      
-      // //detener el movimiento del fondo
-      // scene.velocityX = 0;
+      // mover el suelo
+      scene.velocityX = -3 
+      //destroy bow
+      //bow.destroy();
+      //reiniciar el fondo
+      if (scene.x < 0){
+           scene.x = scene.width/2;
+      }
+      //mover arco
+      bow.y = World.mouseY      
+      //detener el movimiento del fondo
+      //scene.velocityX = 0;
 
   
    //Liberar las flechas al presionar la barra espaciadora
@@ -94,16 +94,16 @@ function draw() {
       en función del estado END*/  
       // // mover el suelo
       // scene.velocityX = -3 
-      // //destruir el arco
-      // bow.destroy();
-      // //reiniciar el fondo
-      // if (scene.x < 0){
-      //     scene.x = scene.width/2;
-      //    }
+      //destruir el arco
+      bow.destroy();
+      //reiniciar el fondo
+      if (scene.x < 0){
+           scene.x = scene.width/2;
+          }
       // //mover el arco
-      // bow.y = World.mouseY      
+      bow.y = World.mouseY      
       // //detener el movimiento del fondo
-      // scene.velocityX = 0;
+      scene.velocityX = 0;
 
   }
 
